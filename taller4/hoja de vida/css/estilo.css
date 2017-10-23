@@ -1,0 +1,39 @@
+header > h1{
+	text-align: center;
+
+}
+header {
+	background-color: #866262;
+
+}
+section#contenido div{
+	border: 1pt solid #cbccc1;
+	margin: 5px;
+
+}
+div>span#foto {
+	
+	border: 1pt solid #cbccc1;
+	margin: 5px ;
+}
+div>span#foto img{
+
+	width: 8%
+}/*
+div>span#datos1{
+
+	float: right;
+}*/
+
+div.habilidad>div:first-child {
+	background-color: #364ab4;
+ 
+}
+div.habilidad>div:last-child{
+	
+ 	box-shadow: 3px 3px 1px 1px;
+}
+body{
+	
+ margin:0% 25% 0%;
+}
