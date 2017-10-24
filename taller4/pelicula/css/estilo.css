@@ -18,12 +18,14 @@ div#sinopsis>h2{
 	color: #ce105c;
 	font-size: 1em;
 }div#reparto>h2{
+	
 	color: #ce105c;
 	font-size: 1em;
 }
 section>div{
 	display: inline-block;
-	text-align: top;
+
+
 
 	width: 30%;
 }
@@ -39,7 +41,7 @@ section div li[name="reparto"]{
 	list-style-image: url('http://web-toolkit.global.sky.com/2.2.13-rc-v1/_site/static/font-svgs/carousel-play.svg');
 }
 div>span#imagen img{
-	width: 40%
+	width: 60%
 
 }
 img {
@@ -50,5 +52,12 @@ img {
 img:hover {
     opacity: .8;
      /* For IE8 and earlier */
+}
+div#famoso li[name="reparto"]>span#principal{
+	font-weight: bold;
+
+	}
+	div#famoso li[name="reparto"]>span#secundario{
+	font-family: italic;
 }
 /**<iframe width="560" height="315" src="https://www.youtube.com/embed/bD7bpG-zDJQ" frameborder="0" allowfullscreen></iframe>*/
